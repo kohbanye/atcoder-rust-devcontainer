@@ -2,9 +2,18 @@ use proconio::input;
 
 fn main() {
     input! {
-        n: usize,
-        a: [usize; n],
+        year: i32,
     }
 
-    println!("{:?}", a);
+    let ans = if year % 4 != 0 {
+        365
+    } else if year % 100 != 0 {
+        366
+    } else if year % 400 != 0 {
+        365
+    } else {
+        366
+    };
+
+    println!("{}", ans);
 }
