@@ -15,6 +15,5 @@ Cargo.lock
 
 # Ignore user settings file
 .env
-/.vscode/
 
 src/contest/*/testcases/
