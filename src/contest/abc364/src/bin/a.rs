@@ -3,8 +3,14 @@ use proconio::input;
 fn main() {
     input! {
         n: usize,
-        a: [usize; n],
+        strings: [String; n],
     }
 
-    println!("{:?}", a);
+    for i in 1..n - 1 {
+        if strings[i - 1] == "sweet" && strings[i] == "sweet" {
+            println!("No");
+            return;
+        }
+    }
+    println!("Yes");
 }
