@@ -40,3 +40,6 @@ jq ". * {\"rust-analyzer.linkedProjects\": $updated_linked_projects}" $settings_
 
 # Call create_gitkeep_in_testcases.sh
 create_gitkeep_in_testcases.sh $contest_directory/$contest
+
+# Move to the new contest directory
+cd $contest_directory/$contest
