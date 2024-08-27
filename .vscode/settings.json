@@ -2,6 +2,7 @@
   "rust-analyzer.linkedProjects": [
     "./src/lib/Cargo.toml",
     "./src/contest/abc364/Cargo.toml",
-    "./src/contest/abc365/Cargo.toml"
+    "./src/contest/abc365/Cargo.toml",
+    "./src/contest/abc368/Cargo.toml"
   ]
 }
