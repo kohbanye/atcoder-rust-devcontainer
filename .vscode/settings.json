@@ -8,6 +8,7 @@
     "./src/contest/abc370/Cargo.toml",
     "./src/contest/abc362/Cargo.toml",
     "./src/contest/abc375/Cargo.toml",
-    "./src/contest/abc379/Cargo.toml"
+    "./src/contest/abc379/Cargo.toml",
+    "./src/contest/abc383/Cargo.toml"
   ]
 }
